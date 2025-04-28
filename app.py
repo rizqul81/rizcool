@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 import os
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Route untuk halaman beranda
 @app.route('/')
