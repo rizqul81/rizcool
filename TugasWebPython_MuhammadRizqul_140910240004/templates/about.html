@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Muhammad Rizqul Akbar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Tentang Saya</h1>
+    </header>
+
+    <main>
+        <!-- Get to Know About Me Section -->
+        <section class="about-me-container">
+            <h2>Get to Know About Me</h2>
+            <p>Halo! Saya Muhammad Rizqul Akbar, mahasiswa Teknik Elektro di Universitas Padjadjaran. Saat ini saya sedang menempuh semester kedua, dengan fokus belajar di bidang elektronika analog, elektronika digital, serta dasar-dasar pemrograman menggunakan bahasa C dan Python.</p>
+            <p>Selain kegiatan akademik, saya aktif berorganisasi di Himpunan Mahasiswa Teknik Elektro (HMTE) Unpad sebagai staf Biro Kewirausahaan. Saya juga terlibat dalam berbagai program kerja besar HMTE, di antaranya:</p>
+            <ul>
+                <li>Magneto sebagai Wakil Ketua Divisi Fasilitator dalam OSPEK Magneto</li>
+                <li>ESPORA sebagai Wakil Ketua Divisi Humas</li>
+                <li>FUTURA sebagai Staff Komersil</li>
+            </ul>
+            <p>Saya memiliki ketertarikan dalam bidang desain digital, elektronika, serta pengembangan inovasi teknologi yang aplikatif dalam kehidupan sehari-hari.</p>
+            <p>Di waktu luang, saya senang belajar keterampilan baru, mengerjakan proyek kreatif, dan memperluas relasi dengan orang-orang yang memiliki semangat yang sama.</p>
+            <p>Saya percaya bahwa proses belajar dan berkembang tidak pernah berhenti. Karena itu, saya selalu terbuka untuk berbagai kesempatan kolaborasi dan tantangan baru!</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-container">
+            <h2>Kemampuan</h2>
+            <ul>
+                <li>Komunikasi efektif</li>
+                <li>Mampu bekerja sama dengan baik</li>
+                <li>Bertanggung jawab</li>
+                <li>Manajemen waktu</li>
+                <li>Cepat beradaptasi</li>
+                <li>Menguasai bahasa Inggris</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <img src="{{ url_for('static', filename='images/sdcingcin.jpg') }}" alt="SDN Cingcin 3">
+                    <h3>SDN Cingcin 3</h3>
+                    <p>Sekolah Dasar Negeri yang berlokasi di Jl. Raya Laswi No.96, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat. Tempat saya menempuh pendidikan dasar selama 6 tahun.</p>
+                </div>
+                <div class="education-item">
+                    <img src="{{ url_for('static', filename='images/smpn1margahayu.jpg') }}" alt="SMPN 1 Margahayu">
+                    <h3>SMPN 1 Margahayu</h3>
+                    <p>Sekolah Menengah Pertama yang beralamat di Jl. Mekar Sari No.26, Margahayu Tengah, Kec. Margahayu, Kabupaten Bandung, Jawa Barat. Tempat saya mengembangkan ilmu dan bakat di tingkat menengah pertama.</p>
+                </div>
+                <div class="education-item">
+                    <img src="{{ url_for('static', filename='images/smanmargahayu.jpeg') }}" alt="SMAN 1 Margahayu">
+                    <h3>SMAN 1 Margahayu</h3>
+                    <p>Sekolah Menengah Atas terletak di Jl. Terusan Kopo No.443, Sayati, Kec. Margahayu, Kabupaten Bandung, Jawa Barat. Di sinilah saya memperdalam minat di bidang teknik dan sains.</p>
+                </div>
+                <div class="education-item">
+                    <img src="{{ url_for('static', filename='images/unpad.jpg') }}" alt="Universitas Padjadjaran">
+                    <h3>Universitas Padjadjaran</h3>
+                    <p>Universitas negeri terkemuka di Indonesia yang berlokasi di Jl. Raya Bandung Sumedang KM.21, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat. Saya saat ini menempuh pendidikan di Program Studi Teknik Elektro.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Muhammad Rizqul Akbar</p>
+    </footer>
+
+</body>
+</html>

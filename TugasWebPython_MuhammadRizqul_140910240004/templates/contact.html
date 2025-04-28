@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Muhammad Rizqul Akbar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    
+    <main>
+        <div class="contact-container">
+            <img src="{{ url_for('static', filename='images/kontak.jpg') }}" alt="Foto Muhammad Rizqul Akbar">
+            <div class="contact-info">
+                <h2>Contact:</h2>
+                <p>Email: rizqul81@gmail.com</p>
+                <p>Instagram: @m.rizqul</p>
+                <p>CV: <a href="https://drive.google.com/file/d/1ekSdwkCwb_0kTqsRlZ_0lPLM7OSKaCJy/view?usp=sharing" target="_blank">Muhammad Rizqul Akbar</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/muhammadrizqulakbar" target="_blank">Muhammad Rizqul Akbar</a></p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Muhammad Rizqul Akbar</p>
+    </footer>
+</body>
+</html>
