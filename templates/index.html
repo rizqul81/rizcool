@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Muhammad Rizqul Akbar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Muhammad Rizqul Akbar</h1>
+        <h1>140910240004</h1>
+    </header>
+    
+    <main>
+        <div class="about-container">
+            <img src="{{ url_for('static', filename='images/fotoprofile.jpg') }}" alt="Profile Photo" class="profile-image">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Halo! Saya Muhammad Rizqul Akbar, mahasiswa Teknik Elektro di Universitas Padjadjaran yang saat ini sedang menempuh semester kedua dengan fokus di bidang elektronika analog, elektronika digital, serta dasar-dasar pemrograman menggunakan bahasa C dan Python. Saya lahir di Bandung pada tanggal 2 Juni 2005, dan hingga saat ini besar serta tinggal di kota Bandung.</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Muhammad Rizqul Akbar</p>
+    </footer>
+</body>
+</html>
