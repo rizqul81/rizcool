@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 import os
-app = Flask(_name_, template_folder='templates')
+app = Flask(_name_)
 
 # Route untuk halaman beranda
 @app.route('/')
@@ -19,4 +19,3 @@ def contact():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    import os
